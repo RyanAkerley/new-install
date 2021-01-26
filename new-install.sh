@@ -9,6 +9,7 @@ apt-get --assume-yes install cmake
 apt-get --assume-yes install git
 apt-get --assume-yes install gnuradio
 apt-get --assume-yes install ipython3
+apt-get --assume-yes install lldb
 apt-get --assume-yes install llvm
 apt-get --assume-yes install sl
 apt-get --assume-yes install slack
