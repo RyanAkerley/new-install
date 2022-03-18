@@ -5,8 +5,6 @@
 # Ryan Akerley
 
 
-apt-get --assume-yes update
-apt-get --assume-yes dist-upgrade
 
 apt-get --assume-yes install binutils
 apt-get --assume-yes install clang
@@ -23,3 +21,4 @@ apt-get --assume-yes install tmux
 apt-get --assume-yes install vim
 apt-get --assume-yes install wine
 
+apt-get --assume-yes autoremove

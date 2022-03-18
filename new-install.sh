@@ -4,6 +4,9 @@
 #
 # Ryan Akerley
 
+# run sud.sh to update packages and repositories
+sud.sh
+
 # run install-pkgs.sh to install packages I use
 install-pkgs.sh
 
