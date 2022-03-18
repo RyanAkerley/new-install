@@ -1,4 +1,9 @@
 #!/bin/sh
+# install-pkgs.sh
+# a script to install the packages I use on my personal ubuntu installs
+#
+# Ryan Akerley
+
 
 apt-get --assume-yes update
 apt-get --assume-yes dist-upgrade
