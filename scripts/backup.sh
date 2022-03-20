@@ -4,4 +4,8 @@
 #
 # Ryan Akerley
 
+readonly SOURCEDIR=($1)
+readonly DESTDIR=($2)
+
+echo "source=" $SOURCEDIR " dest=" $DESTDIR
 
