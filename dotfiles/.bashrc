@@ -118,3 +118,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+if [ -f ~/.local/bin ]; then
+    PATH=~/.local/bin:$PATH
+fi
+
+export PATH=/opt/firefox/firefox:$PATH
