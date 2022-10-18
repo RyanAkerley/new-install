@@ -11,7 +11,7 @@ fi
 
 readonly DESTDIR=($1)
 readonly DATE="$(date +%Y_%m_%d)"
-readonly BUPDIR=$DESTDIR/$DATE/
+readonly BUPDIR=$DESTDIR/$USER/$DATE/
 echo "Destination: $BUPDIR"
 
 if [ "$(ls -A $DESTDIR)" ]; then
