@@ -9,6 +9,7 @@
 apt-get --assume-yes install binutils
 apt-get --assume-yes install clang
 apt-get --assume-yes install cmake
+apt-get --assume-yes install curl
 apt-get --assume-yes install gimp
 apt-get --assume-yes install git
 apt-get --assume-yes install gnuradio
